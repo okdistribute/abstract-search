@@ -20,6 +20,18 @@ A search portal, for example CKAN, will have various instances deployed across t
 
 Returns a stream that emits results of a query.
 
+#### Options
+
+A `query` is an object to be interpreted by the consumer.
+
+Specify `fulltext` to do a simple fulltext search. For example,
+
+```js
+var query = {
+  `fulltext`: 'this is my query'
+}
+```
+
 ### `stream.on('data')`
 
 Return search results as objects. Each row should be on a new line.
