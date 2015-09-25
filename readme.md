@@ -10,7 +10,7 @@ A search portal, for example CKAN, will have various instances deployed across t
 
 #### Options
 
-`url`: the location. will be optional and default to the canonical deployment (e.g., figshare) or might be required depending on the type of search host.
+`uri`: the location. will be optional and default to the canonical deployment (e.g., figshare) or might be required depending on the type of search host.
 
 `version`: can be helpful if in case the search api has changed between versions.
 
