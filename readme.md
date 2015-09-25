@@ -1,6 +1,6 @@
 # abstract-search
 
-A search interface for node.
+A search interface for requesting http pages from websites.
 
 ## API
 
@@ -34,7 +34,7 @@ var query = {
 
 ### `stream.on('data')`
 
-Return search results as objects. Each row should be on a new line.
+Return search results as objects. Each emit of data should be an array of results.
 
 ### `searcher.url`
 
@@ -42,11 +42,11 @@ String. A consumer should be able to access the url as a property.
 
 ### `searcher.version`
 
-String. (If available)
+String.
 
 ### `searcher.name`
 
-String. A nice name.
+String.
 
 ### `searcher.auth(credentials)`
 
