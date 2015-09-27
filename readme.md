@@ -2,6 +2,10 @@
 
 A search interface for requesting http pages from websites.
 
+## As seen in
+* [CKAN search](https://github.com/karissa/ckan-search)
+* [Figshare search](https://github.com/karissa/figshare-search)
+
 ## API
 
 ### `searcher = search([opts])`
